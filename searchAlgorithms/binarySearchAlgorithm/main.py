@@ -1,10 +1,10 @@
 from math import floor
 
 # Finds index of sorted array.
-def binarySearch(arr, n, target):
+def binarySearch(arr, length, target):
 
     l = 0
-    r = n - 1
+    r = length - 1
 
     while l <= r:
         m = floor((l + r) / 2)
