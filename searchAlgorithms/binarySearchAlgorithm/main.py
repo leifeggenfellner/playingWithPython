@@ -1,6 +1,6 @@
 from math import floor
 
-# Finds index of sorted array.
+# Expects a sorted array, the length of the array, and the number you wish to find the index of.
 def binarySearch(arr, length, target):
 
     l = 0

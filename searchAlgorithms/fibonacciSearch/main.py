@@ -1,3 +1,4 @@
+# Expects a sorted array, the length of the array, and the number you wish to find the index of.
 def fibonacciSearch(arr, length, target):
     f2 = 0
     f1 = 1
