@@ -1,9 +1,9 @@
 from math import floor
 
 # Expects a sorted array, the length of the array, and the number you wish to find the index of.
-def binarySearch(arr, length, target):
+def binarySearch(arr, start, length, target):
 
-    l = 0
+    l = start
     r = length - 1
 
     while l <= r:
@@ -24,4 +24,4 @@ def exponentialSearch(arr, length, target):
     while bound < length and arr[bound] < target:
         bound *= 2
     
-    return binarySearch(arr, min(bound + 1, length), target)
+    return binarySearch(arr, bound / 2, min(bound + 1, length), target)
