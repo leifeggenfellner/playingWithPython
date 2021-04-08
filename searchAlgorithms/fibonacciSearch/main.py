@@ -29,4 +29,4 @@ def fibonacciSearch(arr, length, target):
     if f1 and arr[offset + 1] == target:
         return offset + 1
     
-    return "Element not in array"
+    return -1

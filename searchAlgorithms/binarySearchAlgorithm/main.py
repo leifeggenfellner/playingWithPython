@@ -14,4 +14,4 @@ def binarySearch(arr, length, target):
             r = m - 1
         else:
             return m
-    return "Number not in array"
+    return -1

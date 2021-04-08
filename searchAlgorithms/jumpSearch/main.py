@@ -10,15 +10,15 @@ def jumpSearch(arr, length, target):
         b = b + floor(sqrt(length))
 
         if a >= length:
-            return "Element not in array"
+            return -1
         
     while arr[a] < target:
         a = a + 1
 
         if a == min(b, length):
-            return "Element not in array"
+            return -1
 
     if arr[a] == target:
         return a
     else:
-        return "Element not in array"
+        return -1
