@@ -1,3 +1,4 @@
+# Expects an array of numbers
 def bubbleSort(arr):
     length = len(arr)
 
