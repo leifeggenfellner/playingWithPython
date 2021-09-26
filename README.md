@@ -1,2 +1,2 @@
 # pythonStuff
-Playing with some python libraries
+Just having fun with python
